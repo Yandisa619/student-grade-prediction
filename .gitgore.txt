@@ -1,0 +1,11 @@
+# Ignore virtual environments
+env/
+.env/
+.venv/
+
+# Ignore Python bytecode files
+*.pyc
+__pycache__/
+
+# Ignore datasets (if the file is too large for GitHub)
+/data/student-mat.csv
